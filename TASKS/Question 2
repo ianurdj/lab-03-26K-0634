@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    char name[30], dept[30], uni[30];
+    int age;
+    int id;
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter your department: ");
+    scanf("%s", dept);
+
+    printf("Enter your student ID: ");
+    scanf("%d", &id);
+
+    printf("Enter your university name: ");
+    scanf("%s", uni);
+
+    printf("\n");
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("Department: %s\n", dept);
+    printf("Student ID: %d\n", id);
+    printf("University: %s\n", uni);
+
+    return 0;
+}

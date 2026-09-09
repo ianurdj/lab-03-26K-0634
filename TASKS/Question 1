@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main () {
+printf("Name: khadija\n");
+printf("Age: 17\n");
+printf("Department: Computer Science\n");
+printf("Student ID: 26k-0634\n");
+printf("Section: D\n");
+printf("University Name: FAST University\n");
+    return 0;
+}
