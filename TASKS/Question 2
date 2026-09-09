@@ -1,4 +1,4 @@
-#ginclude <stdio.h>
+#gitinclude <stdio.h>
 
 int main()
 {
